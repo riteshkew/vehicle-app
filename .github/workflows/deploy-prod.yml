@@ -1,0 +1,18 @@
+name: Deploy Master
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  curl-call:
+    runs-on: ubuntu-latest
+    steps:
+      - name: cURL request
+        id: curl_request
+        run: |
+          response=$(curl --write-out "%{http_code}" --silent --output /dev/null --location --request POST 'https://internal.appsmith.com/api/v1/git/deploy/app/66055db37e234e5dd73acdcd?branchName=master' --header 'Authorization: Bearer 73e7c0bf2c7cad2b7186c269e2225eaa3336f33dcc156313258fa02048c016b9db47f102bc394ffe9c6f789198eabc5523f6da32bfd46cddd52a44694d60ce7e053fdedc62f83e7ea2acf42b31feb7f4ea7e8411e9007c6ad4e6dd69900acf416fc8449193e7c55cdaff91b08878ebb5b5635d1c6128a8a8cfa26798c1bd2958fc3cf2fe67d1e322733c6c68be68140b25e088c1bb2a2258e0345d1599b5388b33e58f444ea9f28e50340c77b3abe559961186a90fb15b223c6247c7194ff054255d38b5abe665dd61ad6bb1843150a5d66369c55b69d0b7e4233c81442eff17')
+
+          echo "Response status: $response"
+          echo "response=$response" >> $GITHUB_ENV
