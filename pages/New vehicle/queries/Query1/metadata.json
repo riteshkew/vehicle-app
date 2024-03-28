@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "select_cars",
+    "name": "Query1",
     "datasource": {
       "name": "maintenance_schedule",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,10 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Schedule",
+    "pageId": "New vehicle",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "select * from cars",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,8 +24,7 @@
         }
       ]
     },
-    "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": false,
     "isValid": true,
     "invalids": [],
     "messages": [],
@@ -36,9 +33,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2022-06-14T06:09:00Z"
+    "createdAt": "2024-03-28T12:32:03Z"
   },
-  "id": "Schedule_select_cars",
+  "id": "New vehicle_Query1",
   "deleted": false,
-  "gitSyncId": "62a825fc84b91337251a0577_62a825fc84b91337251a0589"
+  "gitSyncId": "6605613c6fa6a42957514b79_660563436fa6a42957514c03"
 }
