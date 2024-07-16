@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "62587b170d3d384069c0f765_62a2cfcfe56c5566a62971a2",
+  "id": "Home page_JSObject1",
   "unpublishedCollection": {
     "name": "JSObject1",
     "pageId": "Home page",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Home page_JSObject1",
-  "deleted": false,
-  "gitSyncId": "62587b170d3d384069c0f765_62a2cfcfe56c5566a62971a2"
+    ]
+  }
 }

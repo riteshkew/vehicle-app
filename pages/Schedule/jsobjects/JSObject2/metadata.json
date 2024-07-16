@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "6605613c6fa6a42957514b79_660563476fa6a42957514c17",
+  "id": "Schedule_JSObject2",
   "unpublishedCollection": {
     "name": "JSObject2",
     "pageId": "Schedule",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Schedule_JSObject2",
-  "deleted": false,
-  "gitSyncId": "6605613c6fa6a42957514b79_660563476fa6a42957514c17"
+    ]
+  }
 }

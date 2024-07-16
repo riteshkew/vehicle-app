@@ -1,4 +1,12 @@
 {
+  "appIsExample": false,
+  "appLayout": {
+    "type": "DESKTOP"
+  },
+  "applicationVersion": 2,
+  "color": "#C7F3E3",
+  "evaluationVersion": 2,
+  "icon": "calender",
   "pages": [
     {
       "id": "Home page",
@@ -17,27 +25,7 @@
       "isDefault": false
     }
   ],
-  "viewMode": false,
-  "appIsExample": false,
-  "unreadCommentThreads": 0,
-  "clonedFromApplicationId": "62587b170d3d384069c0f765",
-  "color": "#C7F3E3",
-  "icon": "calender",
   "unpublishedAppLayout": {
     "type": "DESKTOP"
-  },
-  "publishedAppLayout": {
-    "type": "DESKTOP"
-  },
-  "unpublishedCustomJSLibs": [
-    {
-      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
-    }
-  ],
-  "publishedCustomJSLibs": [],
-  "evaluationVersion": 2,
-  "applicationVersion": 2,
-  "isManualUpdate": false,
-  "forkedFromTemplateTitle": "Vehicle Maintenance App",
-  "deleted": false
+  }
 }

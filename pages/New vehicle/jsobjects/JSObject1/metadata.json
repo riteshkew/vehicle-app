@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "62587b170d3d384069c0f765_62a2f166e56c5566a6297a81",
+  "id": "New vehicle_JSObject1",
   "unpublishedCollection": {
     "name": "JSObject1",
     "pageId": "New vehicle",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "New vehicle_JSObject1",
-  "deleted": false,
-  "gitSyncId": "62587b170d3d384069c0f765_62a2f166e56c5566a6297a81"
+    ]
+  }
 }
