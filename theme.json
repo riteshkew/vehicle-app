@@ -39,14 +39,14 @@
   "name": "Classic",
   "properties": {
     "borderRadius": {
-      "appBorderRadius": "0.375rem"
+      "appBorderRadius": "0px"
     },
     "boxShadow": {
       "appBoxShadow": "none"
     },
     "colors": {
-      "backgroundColor": "#F6F6F6",
-      "primaryColor": "#3e2a35"
+      "backgroundColor": "#71717a",
+      "primaryColor": "#93c5fd"
     },
     "fontFamily": {
       "appFont": "System Default"
